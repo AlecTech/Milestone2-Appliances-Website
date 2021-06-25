@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./LandingPage.module.css";
 import Modal from "./Modal";
+import ActionLink from "../ContactUs/BookNow";
 
 const LandingPage = () => {
 
@@ -71,6 +72,7 @@ const LandingPage = () => {
 const [isOpen, setIsOpen] = useState(false)
 // =======Returns entire Landing component==========
   return (
+    
   <section className={styles.grid}>  
     {/* ==========Fade in Pictures block============ */}
     <div className={styles.crossFade}>

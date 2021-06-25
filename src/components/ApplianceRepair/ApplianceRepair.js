@@ -157,7 +157,7 @@ const ApplianceRepair = (props) => {
   };
 
   return (
-    <div className={styles.appRepairContainer}>
+    
       <MDBContainer className={styles.repairPage}>
         <p className={`${styles.fillForm} text-center font-weight-bold`}>
           {props.someText}
@@ -288,7 +288,7 @@ const ApplianceRepair = (props) => {
           </MDBRow>
         </form>
       </MDBContainer>
-    </div>
+    
   );
 };
 
