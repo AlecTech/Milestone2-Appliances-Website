@@ -6,6 +6,7 @@ import Slide from './Slide';
 // olegs imports
 import Map from './Map';
 import './Map.module.css';
+// import BookNow from './BookNow';
 //olegs imports
 
 
@@ -14,7 +15,10 @@ const ContactUs = () => {
     <>
       
       <Slide />
-      <Form/>
+      
+      <Form>
+       
+      </Form>
       {/* olegs map */}
       <Map />
     </>

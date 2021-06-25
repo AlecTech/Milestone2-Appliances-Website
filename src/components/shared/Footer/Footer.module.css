@@ -1,3 +1,16 @@
 .description {
   font-size: small;
 }
+.footerContainer{
+  /* display: block; */
+  /* height: 700vh; */
+  /* position:absolute;
+left:0;
+bottom:0;
+right:0; */
+position: relative;
+margin-top: -180px;
+/* negative value of footer height */
+
+
+}

@@ -12,8 +12,11 @@ import {
   MDBRow,
   MDBCol,
 } from "mdbreact";
+import ActionLink from "../ContactUs/BookNow";
 
 const ApplianceRepair = (props) => {
+
+  
   const dispatch = useDispatch();
   const history = useHistory();
   const [categoryValue, setCategoryValue] = useState("");
@@ -53,10 +56,13 @@ const ApplianceRepair = (props) => {
     history.push("/quotation");
   };
   console.log(categoryValue);
+
+
   const selectIssueComponent = (categoryValue) => {
     if (categoryValue === "Washer") {
       return (
         <>
+          <ActionLink/>
           <label htmlFor="chooseIssue">Select Issue</label>
           <select
             id="chooseIssue"
@@ -151,7 +157,7 @@ const ApplianceRepair = (props) => {
   };
 
   return (
-    <>
+    <div className={styles.appRepairContainer}>
       <MDBContainer className={styles.repairPage}>
         <p className={`${styles.fillForm} text-center font-weight-bold`}>
           {props.someText}
@@ -282,7 +288,7 @@ const ApplianceRepair = (props) => {
           </MDBRow>
         </form>
       </MDBContainer>
-    </>
+    </div>
   );
 };
 

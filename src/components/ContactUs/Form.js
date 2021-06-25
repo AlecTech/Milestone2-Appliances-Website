@@ -5,7 +5,7 @@ import "./Form.css";
 import emailjs from "emailjs-com";
 import apiKeys from "./apikeys";
 import { MDBBtn } from "mdbreact";
-
+// import logo from "./Images/polarGIF.gif";
 // create a form by taking components with state management and  display the errors, if any
 
 const Form = () => {
@@ -29,6 +29,11 @@ const Form = () => {
     validate
   );
 
+    // function handleClick(e) {
+    //   e.preventDefault();
+    //   console.log('The link was clicked.');
+    // }
+
   return (
     // form component 
     // label // input for name
@@ -38,10 +43,18 @@ const Form = () => {
     // submit button
 
     <div className="centered">
+
+    {/*     <div className="container">
+            <a href="#" className="btn orange" onClick={handleClick}> Book Now </a>       
+        
+             <img src={logo} height="200" ></img>      
+        </div> */}
+
       <form onSubmit={handleSubmit} noValidate> 
 
       {/* no validate for browser not to display validation messages */}
-        <h1>Shoot Message</h1>
+        <h1>Call Us (403)973-8894</h1>
+        <h2>Or Book Online</h2>
 
         <div>
           <label> Name </label>

@@ -1,36 +1,39 @@
  .error{
   color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  
 } 
 
+.centered {
+  background-image: url('./Images/desk1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-  .centered {
-    background-image: url('./Images/desk1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* font-feature-settings: on; */
+  font-weight: bold;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    /* font-feature-settings: on; */
-    font-weight: bold;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
- .inputError {
+.inputError {
   border-color: red;
 } 
 
 .textWidth {
   width : 250px;
+}
+
+.container{
+  position : fixed;
+  left : 20px;
+  top : 60px;
 }
 
 

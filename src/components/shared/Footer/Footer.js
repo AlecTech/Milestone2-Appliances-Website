@@ -4,12 +4,13 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <MDBFooter color="blue" className="font-small">
+    <div className={styles.footerContainer}>
+      <MDBFooter color="blue" className="font-small">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
             <p className={styles.description}>
-              Best Appliance Repair Company in Edmonton
+              Best Appliance Repair Company in Calgary
             </p>
           </MDBCol>
           <MDBCol md="6">
@@ -31,6 +32,8 @@ const Footer = () => {
         </MDBContainer>
       </div>
     </MDBFooter>
+  </div>
+    
   );
 };
 

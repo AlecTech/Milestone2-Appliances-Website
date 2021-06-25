@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+
+.polarGIF {
+    background-image: url("./Images/polarGIF.gif");
+  }

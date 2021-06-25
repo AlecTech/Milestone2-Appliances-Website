@@ -9,7 +9,8 @@ import {
   MDBCollapse,
   MDBIcon,
 } from "mdbreact";
-import logo from "../../../img/landing/logo-makr.png";
+import logo from "../../../img/landing/polarT3.png";
+import "./NavBar.module.css"
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const NavBar = () => {
       <MDBNavbarBrand>
         <strong className="white-text">
           <img src={logo} height="30" />
-          ApplianceMaster
+          Polar Tech Appliance
         </strong>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={toggleCollapse} />
